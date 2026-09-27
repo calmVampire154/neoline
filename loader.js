@@ -1,5 +1,5 @@
 (async () => {
-  const baseUrl = 'https://raw.githubusercontent.com/sneazy-ibo/neoline/refs/heads/altair/';
+  const baseUrl = 'https://raw.githubusercontent.com/calmVampire154/neoline/refs/heads/altair/';
   const files = ['index.html', 'bundled.min.js', 'bundled.min.css'];
 
   const contents = await Promise.all(
